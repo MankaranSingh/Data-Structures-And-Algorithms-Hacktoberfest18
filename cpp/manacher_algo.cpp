@@ -18,17 +18,7 @@ void findLongestPalindromicString()
         return; 
     N = 2*N + 1; //Position count 
     int L[N]; //LPS Length Array 
-    L[0] = 0; 
-    L[1] = 1; 
-    int C = 1; //centerPosition  
-    int R = 2; //centerRightPosition 
-    int i = 0; //currentRightPosition 
-    int iMirror; //currentLeftPosition 
-    int maxLPSLength = 0; 
-    int maxLPSCenterPosition = 0; 
-    int start = -1; 
-    int end = -1; 
-    int diff = -1; 
+     
       
     //Uncomment it to print LPS Length array 
     //printf("%d %d ", L[0], L[1]); 
